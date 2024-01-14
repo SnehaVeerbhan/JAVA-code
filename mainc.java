@@ -1,6 +1,8 @@
 import java.util.Scanner;
-public class mainc {
-    public static void main(String [] args){
+public class mainc 
+{
+    public static void main(String [] args)
+    {
         Scanner sc = new Scanner (System.in);
         int cash = sc.nextInt();
         if (cash<10)
@@ -14,6 +16,5 @@ public class mainc {
                 else{
                 System.out.println("can buy both");
             }        
-
     }
 }
